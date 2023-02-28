@@ -7,7 +7,7 @@ public class BasicCoreProgram {
     public static void main(String[] args) {
         int year;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("enter any year to check its leap year pr not");
+        System.out.println("enter any year to check its leap year or not");
         year = scanner.nextInt();
 
         if (year %2 == 0 && year%4 == 0 && year%100 != 0 || year%400 == 0 ){
